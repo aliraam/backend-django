@@ -18,7 +18,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is the main part of the Radeband project, which is responsible to comminicate as API at service backend.
+This is the central part of the Radeband project, which is responsible for communicating as API at the service backend.
 
 Components:
 * Base
@@ -34,7 +34,7 @@ Components:
 
 ### Prerequisites
 
-You'll need a postgres database up and running to start this project. You can use the docker-compose.yml file that exists in the root directory of the project to set it up and running or using your own before configured database.
+You'll need a Postgres database up and running to start this project. You can use the docker-compose.yml file in the project's root directory to set it up and run it or use your own before configuring the database.
 ```sh
 docker compose up -d
 ```
@@ -42,7 +42,7 @@ docker compose up -d
 #### Environment variables
 django variables:
 
-* **SECRET_KEY:** This value is the key to securing signed data – it is vital you keep this secure, or attackers could use it to generate their own signed values.
+* **SECRET_KEY:** This value is the key to securing signed data – you must keep this secure, or attackers could use it to generate their own signed values.
 
 
 database variables:
